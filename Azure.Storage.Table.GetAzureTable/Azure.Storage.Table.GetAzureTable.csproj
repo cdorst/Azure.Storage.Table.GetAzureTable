@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Function returns a reference of a new or existing Microsoft Azure CloudTable using the environment's connection string and given table name</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Azure.Storage.Table.GetAzureTable</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable</RepositoryUrl>
+    <Version>3.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Azure.Storage.Connection.GetConnectionString" Version="1.0.0" />
+    <PackageReference Include="CDorst.Azure.Storage.Table.GetOrCreateTableReference" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
