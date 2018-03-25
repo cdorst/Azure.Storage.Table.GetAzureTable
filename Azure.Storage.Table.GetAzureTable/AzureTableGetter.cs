@@ -1,3 +1,6 @@
+// Copyright © Christopher Dorst. All rights reserved.
+// Licensed under the GNU General Public License, Version 3.0. See the LICENSE document in the repository root for license information.
+
 using Microsoft.WindowsAzure.Storage.Table;
 using System.Threading.Tasks;
 using static Azure.Storage.Connection.GetConnectionString.ConnectionStringGetter;
