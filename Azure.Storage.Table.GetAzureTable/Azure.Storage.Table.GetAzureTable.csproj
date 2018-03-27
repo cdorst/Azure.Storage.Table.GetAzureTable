@@ -15,12 +15,12 @@
     <PackageLicenseUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/Azure.Storage.Table.GetAzureTable</RepositoryUrl>
-    <Version>4.0.6</Version>
+    <Version>4.0.7</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Azure.Storage.Connection.GetConnectionString" Version="4.0.6" />
-    <PackageReference Include="CDorst.Azure.Storage.Table.GetOrCreateTableReference" Version="4.0.6" />
+    <PackageReference Include="CDorst.Azure.Storage.Connection.GetConnectionString" Version="4.0.7" />
+    <PackageReference Include="CDorst.Azure.Storage.Table.GetOrCreateTableReference" Version="4.0.7" />
   </ItemGroup>
 
 </Project>
